@@ -1,16 +1,19 @@
 class Solver
   def factorial(number)
-    raise ArgumentError, 'N must be a positive integer or zero' if nymber.negative?
+    raise 'Number cannot be Negative' if number.negative?
 
     result = 1
-    (1..number).each do |i|
-      result *= i
+    while number.positive?
+      result *= number
+      number -= 1
     end
     result
   end
 
-  def reverse(word)
-    word.reverse
+  def reverse(str)
+    raise ArgumentError, 'string must be a string' unless str.is_a? String
+
+    str.reverse
   end
 
   def fizzbuzz(number)
