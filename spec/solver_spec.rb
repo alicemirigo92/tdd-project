@@ -2,7 +2,29 @@ require_relative '../solver'
 
 class ValueError < StandardError
 end
+class Solver
+  def factorial(n)
+    raise ValueError.new("n must be non-negative") if n < 0
+    return 1 if n == 0
+    (1..n).reduce(:*)
+  end
 
+  def reverse(str)
+    str.reverse
+  end
+
+  def fizzbuzz(n)
+    if n % 3 == 0 && n % 5 == 0
+      "fizzbuzz"
+    elsif n % 3 == 0
+      "fizz"
+    elsif n % 5 == 0
+      "buzz"
+    else
+      n.to_s
+    end
+  end
+end
 RSpec.describe Solver do
   describe '#factorial' do
     it 'returns 1 when given 0' do

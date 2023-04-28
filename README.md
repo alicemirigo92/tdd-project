@@ -103,6 +103,11 @@ You can deploy this project using:
 - Twitter: [@beleyaha](https://twitter.com/beleyaha)
 - LinkedIn: [@habtamu-](https://www.linkedin.com/in/habtamu-birru/)
 
+👤 **Bigizi Nduwayo Crispin**
+
+- GitHub: [@Bigizi](https://github.com/Bigizi)
+- LinkedIn: [@Bigizi Nduwayo Crispin](https://www.linkedin.com/in/bigizi/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->

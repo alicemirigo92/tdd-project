@@ -5,8 +5,9 @@ AllCops:
     - "Rakefile"
     - "node_modules/**/*"
     - "spec/**/*"
-
   DisplayCopNames: true
+  Metrics/MethodLength:
+    Enabled: false
 
 Layout/LineLength:
   Max: 120
