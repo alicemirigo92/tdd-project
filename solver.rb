@@ -1,9 +1,9 @@
 class Solver
-  def factorial(n)
-    raise ArgumentError, 'N must be a positive integer or zero' if n.negative?
+  def factorial(number)
+    raise ArgumentError, 'N must be a positive integer or zero' if nymber.negative?
 
     result = 1
-    (1..n).each do |i|
+    (1..number).each do |i|
       result *= i
     end
     result
@@ -13,15 +13,15 @@ class Solver
     word.reverse
   end
 
-  def fizzbuzz(n)
-    if (n % 3).zero? && (n % 5).zero?
+  def fizzbuzz(number)
+    if (number % 3).zero? && (number % 5).zero?
       'fizzbuzz'
-    elsif (n % 3).zero?
+    elsif (number % 3).zero?
       'fizz'
-    elsif (n % 5).zero?
+    elsif (number % 5).zero?
       'buzz'
     else
-      n.to_s
+      number.to_s
     end
   end
 end
