@@ -3,7 +3,19 @@ require_relative '../solver'
 class ValueError < StandardError
 end
 
+RSpec.describe Solver do
+  describe '#factorial' do
+    it 'returns 1 when given 0' do
+      solver = Solver.new
+      expect(solver.factorial(0)).to eq(1)
+    end
 
+    it 'returns the factorial when given a positive integer' do
+      solver = Solver.new
+      expect(solver.factorial(5)).to eq(120)
+      expect(solver.factorial(10)).to eq(3628800)
+    end
+    
     it 'raises an error when given a negative integer' do
       solver = Solver.new
       expect { solver.factorial(-1) }.to raise_error(ValueError)
