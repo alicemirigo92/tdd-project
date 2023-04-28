@@ -97,6 +97,17 @@ You can deploy this project using:
 - Twitter: [@Gathonimirigo](https://twitter.com/GathoniMirigo)
 - LinkedIn: [Alice](www.linkedin.com/in/alice-mirigo)
 
+👤 **Habtamu**
+
+- GitHub: [@Habtamu210](https://github.com/Habtamu210)
+- Twitter: [@beleyaha](https://twitter.com/beleyaha)
+- LinkedIn: [@habtamu-](https://www.linkedin.com/in/habtamu-birru/)
+
+👤 **Bigizi Nduwayo Crispin**
+
+- GitHub: [@Bigizi](https://github.com/Bigizi)
+- LinkedIn: [@Bigizi Nduwayo Crispin](https://www.linkedin.com/in/bigizi/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
